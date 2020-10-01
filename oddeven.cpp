@@ -29,6 +29,7 @@ int checkOdd(int n){
   boolean flag = true;
   if(n%2 == 0){
     flag = false;
+    print("The number is not an even number");
   }
   return flag;
 }
